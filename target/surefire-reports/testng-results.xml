@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="0" total="5" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="114708" started-at="2022-03-13T20:49:39 IST" finished-at="2022-03-13T20:51:34 IST">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="22" started-at="2022-03-13T20:49:39 IST" finished-at="2022-03-13T20:49:39 IST">
+    </test> <!-- Test -->
+    <test name="Validate Navigation Bar" duration-ms="73647" started-at="2022-03-13T20:49:39 IST" finished-at="2022-03-13T20:50:53 IST">
+      <class name="seleniumframework.ValidateNavigationBar">
+        <test-method status="PASS" signature="initialis()[pri:0, instance:seleniumframework.ValidateNavigationBar@700fb871]" name="initialis" is-config="true" duration-ms="69923" started-at="2022-03-13T20:49:39 IST" finished-at="2022-03-13T20:50:49 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialis -->
+        <test-method status="PASS" signature="basePageNavigation()[pri:0, instance:seleniumframework.ValidateNavigationBar@700fb871]" name="basePageNavigation" duration-ms="2761" started-at="2022-03-13T20:50:49 IST" finished-at="2022-03-13T20:50:52 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigation -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:seleniumframework.ValidateNavigationBar@700fb871]" name="teardown" is-config="true" duration-ms="916" started-at="2022-03-13T20:50:52 IST" finished-at="2022-03-13T20:50:53 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- seleniumframework.ValidateNavigationBar -->
+    </test> <!-- Validate Navigation Bar -->
+    <test name="validation of Title" duration-ms="87744" started-at="2022-03-13T20:49:39 IST" finished-at="2022-03-13T20:51:07 IST">
+      <class name="seleniumframework.ValidateTitle">
+        <test-method status="PASS" signature="initialis()[pri:0, instance:seleniumframework.ValidateTitle@1b955cac]" name="initialis" is-config="true" duration-ms="86190" started-at="2022-03-13T20:49:39 IST" finished-at="2022-03-13T20:51:05 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialis -->
+        <test-method status="FAIL" signature="validateAppTitle()[pri:0, instance:seleniumframework.ValidateTitle@1b955cac]" name="validateAppTitle" duration-ms="356" started-at="2022-03-13T20:51:05 IST" finished-at="2022-03-13T20:51:05 IST">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [FEATURED COURS123ES] but found [FEATURED COURSES]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [FEATURED COURS123ES] but found [FEATURED COURSES]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1413)
+at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+at org.testng.Assert.assertEquals(Assert.java:131)
+at org.testng.Assert.assertEquals(Assert.java:655)
+at org.testng.Assert.assertEquals(Assert.java:665)
+at seleniumframework.ValidateTitle.validateAppTitle(ValidateTitle.java:55)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(ArrayList.java:1259)
+at org.testng.TestRunner.privateRun(TestRunner.java:808)
+at org.testng.TestRunner.run(TestRunner.java:603)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:32)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:467)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+at java.lang.Thread.run(Thread.java:748)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateAppTitle -->
+        <test-method status="PASS" signature="validateHeader()[pri:0, instance:seleniumframework.ValidateTitle@1b955cac]" name="validateHeader" duration-ms="65" started-at="2022-03-13T20:51:06 IST" finished-at="2022-03-13T20:51:06 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateHeader -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:seleniumframework.ValidateTitle@1b955cac]" name="teardown" is-config="true" duration-ms="302" started-at="2022-03-13T20:51:06 IST" finished-at="2022-03-13T20:51:07 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- seleniumframework.ValidateTitle -->
+    </test> <!-- validation of Title -->
+    <test name="Validation of logging functionality" duration-ms="114661" started-at="2022-03-13T20:49:39 IST" finished-at="2022-03-13T20:51:34 IST">
+      <class name="seleniumframework.HomePage">
+        <test-method status="PASS" signature="initialis()[pri:0, instance:seleniumframework.HomePage@19b93fa8]" name="initialis" is-config="true" duration-ms="78085" started-at="2022-03-13T20:49:39 IST" finished-at="2022-03-13T20:50:57 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialis -->
+        <test-method status="PASS" signature="basePageNavigation(java.lang.String,java.lang.String)[pri:0, instance:seleniumframework.HomePage@19b93fa8]" name="basePageNavigation" duration-ms="1696" started-at="2022-03-13T20:50:57 IST" data-provider="getData" finished-at="2022-03-13T20:50:59 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[babu.sujan75@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Babu@12345]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigation -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:seleniumframework.HomePage@19b93fa8]" name="teardown" is-config="true" duration-ms="7757" started-at="2022-03-13T20:50:59 IST" finished-at="2022-03-13T20:51:07 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="initialis()[pri:0, instance:seleniumframework.HomePage@19b93fa8]" name="initialis" is-config="true" duration-ms="24714" started-at="2022-03-13T20:51:07 IST" finished-at="2022-03-13T20:51:31 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialis -->
+        <test-method status="PASS" signature="basePageNavigation(java.lang.String,java.lang.String)[pri:0, instance:seleniumframework.HomePage@19b93fa8]" name="basePageNavigation" duration-ms="1939" started-at="2022-03-13T20:51:31 IST" data-provider="getData" finished-at="2022-03-13T20:51:33 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sujan95saha@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigation -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:seleniumframework.HomePage@19b93fa8]" name="teardown" is-config="true" duration-ms="363" started-at="2022-03-13T20:51:33 IST" finished-at="2022-03-13T20:51:34 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- seleniumframework.HomePage -->
+    </test> <!-- Validation of logging functionality -->
+  </suite> <!-- Suite -->
+</testng-results>

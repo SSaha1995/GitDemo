@@ -1,0 +1,6 @@
+20:51:32.025 [TestNG-tests-4] INFO  resources.Base - Pop Up closed
+20:51:33.216 [TestNG-tests-4] INFO  resources.Base - clicked on Login Button
+20:51:33.406 [TestNG-tests-4] INFO  resources.Base - Username Entered
+20:51:33.506 [TestNG-tests-4] INFO  resources.Base - Password Entered
+20:51:33.757 [TestNG-tests-4] INFO  resources.Base - Log in Button is clicked in log in Page
+20:51:34.122 [TestNG-tests-4] INFO  resources.Base - Driver is Closed
