@@ -29,4 +29,8 @@ public class LoginPage
 	{
 		return driver.findElement(login);
 	}
+	public WebElement getLogin88881()
+	{
+		return driver.findElement(login);
+	}
 }
